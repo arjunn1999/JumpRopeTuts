@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/colorPrimaryDark"
+        >
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3dp"/>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Weight(in kg)"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="4dp"/>
+
+        <EditText
+            android:id="@+id/wt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter weight here"
+            android:inputType="numberDecimal"
+            android:textColor="#ffffff"
+            android:backgroundTint="#ffffff"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="4dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SUBMIT"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimaryDark"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

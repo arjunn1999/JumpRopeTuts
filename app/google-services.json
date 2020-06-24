@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "166147990438",
+    "firebase_url": "https://jumpropetuts-81a53.firebaseio.com",
+    "project_id": "jumpropetuts-81a53",
+    "storage_bucket": "jumpropetuts-81a53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166147990438:android:ef9fd5f4757db8f1bb6567",
+        "android_client_info": {
+          "package_name": "com.example.jumpropetuts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166147990438-49p5k6ecb6qa2o84d0iu1c92jhb00rcs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jumpropetuts",
+            "certificate_hash": "27bfbf7ef284d16f14de31b0807669aa240799db"
+          }
+        },
+        {
+          "client_id": "166147990438-a7bma11m677eoljt3ocvfps3cakufp9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_oq3-34FW-RZeZ2cWH1-rBJGV_RliDWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166147990438-a7bma11m677eoljt3ocvfps3cakufp9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
